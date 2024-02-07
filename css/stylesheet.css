@@ -1,0 +1,85 @@
+/*
+======================================================================
+Globala regler                                                        
+======================================================================
+*/
+
+html{
+	/*Bra storlek för att använda REM då 62.5% av 16px är 10*/
+	font-size: 62.5%;  
+}
+*{
+	font-size: 1.6rem;
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+	margin: auto;
+
+	/*outline: 1px solid red;*/
+	/*background-color: #b3c6ff;*/
+	
+}
+#image-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	align-items: center;
+	overflow: hidden;
+}
+#image-container *{
+	flex-grow: 1;
+	opacity: 0.9;
+}
+header{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	position: sticky;
+	width: 100%;
+	background-image: url('../resourses/gif/1j6F.gif');
+	z-Index: 2;
+  	top: 0;
+	padding-bottom: 10xp;
+}
+h1{
+	text-align: center;
+	color: #fff;
+	font-size: 8rem;
+	width: 100%;
+}
+div *{
+	box-shadow: gray 1rem 1rem 1rem;
+}
+.ohShit:hover{
+	z-index: 5 !important;
+}
+/*
+======================================================================
+Regler för länkar                                                     
+======================================================================
+*/
+
+a:link,
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+
+a:focus,
+a:hover {
+	text-decoration: underline;
+}
+
+/*
+======================================================================
+Andra regler                                                         
+======================================================================
+*/
+
+
+
+
