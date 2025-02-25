@@ -179,6 +179,7 @@ let rotation = 30
 let div = document.querySelector('#image-container');
 let audio = new Audio('resourses/Trololo.opus');
 
+audio.loop=true;
 // The journey begins with an eerie melody, echoing through the void, as we play the audio of forgotten tunes...
 audio.play();
 
